@@ -41,7 +41,7 @@ public class Strings {
 		if(p==a)
 			System.out.println("Yes");
 		else
-			System.out.println("No");			//p and a are two diff objects
+			System.out.println("No");			//p and a are two diff object
 	}
 
 }
