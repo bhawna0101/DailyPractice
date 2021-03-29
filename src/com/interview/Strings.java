@@ -8,7 +8,9 @@ public class Strings {
 		//s = "Arora";
 
 		String s2 = "Bhawna";
-		System.out.println(s);
+		s.replace('B', 'b');
+	//	System.out.println(s.concat("abc"));
+	//	System.out.println(s.replace('B', 'b'));  in short, replace and concat functions will act on string but not directly, i.e. the value of s still remains Bhawna and not bhawna or bhawnaabc, String cannot be altered once created.
 		if(s2==s)
 			System.out.println("Yes");	//printed, memory loc is ssame
 		else
@@ -42,6 +44,27 @@ public class Strings {
 			System.out.println("Yes");
 		else
 			System.out.println("No");			//p and a are two diff object
+		
+		System.out.println(s.indexOf('a'));
+		System.out.println(s.length());
+		System.out.println(s.toString());
+		System.out.println(s.trim());
+		System.out.println(s.substring(4));			//na //now from 4th index, new substring will be generated
+		System.out.println(s.substring(4,5));		//n, 4 will be starting index //4,4 will not return anything
+		System.out.println(s.isEmpty());
+		System.out.println(s.lastIndexOf('a'));
+		System.out.println(s.charAt(2));
+
+		
+		
+
+		
+
+
+
+
+		
+		
 	}
 
 }
