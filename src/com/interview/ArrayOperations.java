@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class ArrayOperations {
 	
-	
-
 	void displayArray(int[] arr)
 	{
 		for(int i : arr)
